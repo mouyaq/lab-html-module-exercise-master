@@ -1,0 +1,265 @@
+body {
+  /*background-color: yellow;*/
+  margin: 0;
+  padding: 0;
+}
+
+.blocks-content {
+  height: 300px;
+  padding: 30px 5%;
+  width: 90%;
+}
+
+.blocks-header {
+  text-align: center;
+}
+
+.blocks-header h2 {
+  color: rgb(83, 88, 98);
+  font-size: 1.9em;
+}
+
+.blocks-header p {
+  color: rgb(135, 145, 156);
+  font-size: 1.2em;
+}
+
+.blocks-content a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.col-3 {
+  width: 20%;
+  margin: 0 5%;
+}
+
+#collaboration {
+  width: 100%;
+}
+
+.collaboration {
+  width: 100%;
+  height: 500px;
+}
+
+.collaboration-content {
+  color: white;
+  float: left;
+  font-size: 1.2em;
+  margin: 5% 5% 2% 0;
+  width: 40%;
+}
+
+.collaboration-content h2 {
+  font-size: 1.9em;
+}
+
+.collaboration-imagen {
+  margin: 5% 0 2% 5%;
+  padding: 40px;
+  width: 40%;
+  float: left;
+}
+
+.color-dark-blue {
+  background-color: rgb(31, 82, 111);
+}
+
+.color-blue {
+  background-color: rgb(32, 101, 136);
+}
+
+.dark-blue {
+  background-color: rgb(39, 53, 71);
+}
+
+.float-left {
+  float: left;
+  margin: 0 10px;
+  font-size: 2em;
+}
+
+.float-right {
+  float: right;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  margin: 0px 0px;
+  background: url("images/city-scape.svg");
+  background-size: cover;
+}
+
+.header1 {
+  padding-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+  height: 60px;
+}
+
+.header2 {
+  color: white;
+  margin: 0 auto;
+  /*position: relative;*/
+  text-align: left;
+  width: 80%;
+}
+
+.header2 h1 {
+  font-size: 3em;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.header2 p {
+  font-size: 1.2em;
+  width: 50%;
+}
+
+.install-npm-button {
+  background-color: rgb(49, 68, 88);
+}
+
+.logo-npm-container {
+  float: left;
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.logo-bear {
+  float: right;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.logo-npm {
+  width: 100%;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.npm-logo {
+  background: url(images/)
+}
+
+.rounded-button {
+  border-radius: 30px;
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
+
+.search-bar {
+  width: 60%;
+  float: left;
+}
+
+.search-bar-text {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid white;
+  font-size: 1.2em;
+  height: 30px;
+  margin-left: 20px;
+  padding: 10px;
+  width: 80%;
+  float: left;
+}
+
+.search-button {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid white;
+  float: left;
+  height: 50px;
+  margin-right: 40px;
+  width: 50px;
+}
+
+.sign-up-button {
+  background-color: rgb(240, 146, 51);
+}
+
+.sign-up-for-orgs-button {
+  background-color: rgb(203, 56, 55);
+}
+
+.sign-up-or-login {
+  font-size: 1.2em;
+  margin-right: 20px;
+  text-align: right;
+  vertical-align: middle;
+  width: 20%;
+  float: right;
+}
+
+.sign-up-or-login p {
+  color: white;
+}
+
+.sign-up-or-login-link {
+  color: white;
+  text-decoration: none;
+}
+
+.top-left {
+  float: left;
+  margin-left: 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+    vertical-align: top;
+}
+
+.whatis {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.whatis-content {
+
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 40%;
+}
